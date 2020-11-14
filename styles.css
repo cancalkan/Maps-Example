@@ -1,0 +1,10 @@
+#map{
+    width:100vw;
+    height:100vh;
+}
+body{
+    margin:0;
+}
+#map > div.mapboxgl-control-container > div.mapboxgl-ctrl-top-left > div > div.directions-control.directions-control-inputs > div > div:nth-child(1) > button{
+    display:none;
+}
